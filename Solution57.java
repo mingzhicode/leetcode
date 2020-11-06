@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class Solution57 {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         
         int left = newInterval[0];
