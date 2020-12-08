@@ -24,6 +24,7 @@ public class Solution118 {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Solution118().generate(5));
+        List<List<Integer>> result = new Solution118().generate(10);
+        System.out.println(result.get(result.size()-1));
     }
 }
